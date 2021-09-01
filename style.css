@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@200&display=swap');
 
 :root{
     --font-title: 2em 'Big Shoulders Display', cursive; 
@@ -24,26 +24,87 @@ main{
     align-items: center;
 }
 
+/* --- Card Properties --- */
 .card{
-    padding: 2.8em;
+    padding: 3em;
 }
-
+/* Specific Properties */
 .first-card{
     background-color: hsl(31, 77%, 52%);
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 0.625em 0.625em 0% 0%;
+}
+.first-card .card-button{
+    color:hsl(31, 77%, 52%);
 }
 
+.second-card{
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0% 0% 0% 0%;
+}
+.second-card .card-button{
+    color:hsl(184, 100%, 22%);
+}
+
+.third-card{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0% 0% 0.625em 0.625em;
+}
+.third-card .card-button{
+    color:hsl(179, 100%, 13%);
+}
+/* All Around */
 .card-title{
     font: var(--font-title);
     text-transform: uppercase;
 }
 .card-text{
+    margin-bottom: 2em;
     font: var(--font-text);
     line-height: 1.6;
+    font-weight: 300;
 }
+.card-button{
+    padding: 1em 2em;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 1.75em;
+    font-weight: bold;
+    cursor: pointer;
+}
+    .card-button:hover{
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+    }
 
+/* --- Queries --- */
 @media (min-width: 720px) {
     main{
+        height: 100vh;
+        margin: 0 3%;
         flex-direction: row;
     }
+
+    .card{
+        padding: 2em;
+    }
+
+    .first-card{
+        border-radius: 0.625em 0 0 0.625em;
+    }
+
+    .third-card{
+        border-radius: 0 0.625em 0.625em 0%;
+    }
+
+    .card-text{
+        margin-bottom: 4.5em
+    }
 }
+
+@media (min-width: 1362px){
+    main{
+        margin: 0 20%;
+        flex-direction: row;
+    }
+} 
