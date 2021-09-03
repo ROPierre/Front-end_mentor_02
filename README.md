@@ -17,6 +17,8 @@ In this solution I will try the [3-column preview card component challenge on Fr
 
 ## Overview
 
+Simple solution of 3 column cards, using only the basics of HTML5 and CSS3 (with flexbox) 
+
 ### The challenge
 
 Users should be able to:
@@ -32,30 +34,21 @@ Users should be able to:
 
 ## My process
 
+First of all I planned the HTML, where everything was going to be and what I should do with every element there.
+Secondly I started with just one of the cards because the other would have the same basics properties prioritizing the reponsive environment, small display screen to the large one.
+At last I started to do the other cards and created the custom style properties of each one and started the desktop version, where the cards are in a row.  
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
-
-### What I learned
-
-On progress
-
-### Continued development
-
-On progress
+- Responsive-first workflow
 
 ### Useful resources
 
-On progress
+- [W3Schools](https://www.w3schools.com/tags/ref_pxtoemconversion.asp) to convert Pixel scale to EM scale
 
 ## Author
 
 - [Rafael Pierre - Github](https://github.com/ROPierre/)
 - Frontend Mentor - [@ROPierre](https://www.frontendmentor.io/profile/ROPierre)
-
-## Acknowledgments
-
-On progress
