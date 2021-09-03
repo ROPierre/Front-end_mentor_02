@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/ROPierre/Front-end_mentor_02)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://ropierre.github.io/Front-end_mentor_02/)
 
 ## My process
 
